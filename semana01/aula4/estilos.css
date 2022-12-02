@@ -19,7 +19,9 @@ body {
 h2 {
   width: 50%;
   margin: 30px;
-  border: 3px solid green;
+  /* Exemplo de propriedade shorthand
+     vários valores podem ser passados */
+  border: 3px solid rgb(20, 123, 208);
   padding: 6px;
 }
 
