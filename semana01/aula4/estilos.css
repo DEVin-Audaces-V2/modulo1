@@ -35,3 +35,14 @@ h2 {
 .destaque span span {
   background-color: yellow;
 }
+
+/* Tira as bolinhas da lista */
+/*
+ul {
+  list-style: none;
+}
+*/
+
+ul>li.item>p {
+  color: blue;
+}
