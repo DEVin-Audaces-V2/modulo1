@@ -7,11 +7,17 @@ h1 {
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: sans-serif;
+  background-image: url(https://i.pinimg.com/originals/8c/87/4f/8c874fb2ab4b328fbd2015b1a2f2201d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Exemplo de seletor por "tagName" */
 h2 {
+  width: 50%;
   margin: 30px;
   border: 3px solid green;
   padding: 6px;
@@ -34,6 +40,11 @@ h2 {
 
 .destaque span span {
   background-color: yellow;
+}
+
+/* Tira o sublinhado de links ou outros textos */
+a {
+  text-decoration: none;
 }
 
 /* Tira as bolinhas da lista */
