@@ -1,6 +1,7 @@
 html,
 body,
 div,
+main,
 footer {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ body {
 }
 
 main {
+  padding: 0 20px 40px;
   flex-grow: 1;
 }
 
