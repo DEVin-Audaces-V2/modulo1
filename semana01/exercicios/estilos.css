@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(253, 245, 228)
+}
+
+h1 {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(85, 52, 31);
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+a#botao button {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+a#botao img {
+  height: 40px;
+}
