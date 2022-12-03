@@ -1,4 +1,5 @@
 body {
+  padding-top: 40px;
   background-color: rgb(253, 245, 228)
 }
 
@@ -7,6 +8,10 @@ h1 {
   font-size: 20px;
   color: rgb(85, 52, 31);
   text-align: center;
+  background-image: url(https://i.pinimg.com/originals/2c/67/fb/2c67fb43d38ebe75ef01fd0a3367ba46.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 p {
@@ -23,4 +28,59 @@ a#botao button {
 
 a#botao img {
   height: 40px;
+}
+
+div#imagens {
+  width: 100%;
+  display: flex;
+}
+
+div#imagens img {
+  width: calc(100% / 3);
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 40px;
+  padding: 0 10px;
+  background-color: rgb(85, 52, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img#logo {
+  display: block;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: rgb(85, 52, 31);
 }
